@@ -1,0 +1,112 @@
+
+/* Portrait*/
+@media (min-device-width: 0) and (max-device-width: 480px){ 
+
+    /**================================================
+            Main
+===================================================**/
+
+#tiles-container{
+  width: 300px;
+  margin: auto;
+ 
+}
+
+
+.tile{
+    float: left;
+    background-color: #fff;
+    border: solid 1px #B1B1B1;
+    box-shadow: 0px 2px 5px #888;
+    padding: 40px 0 40px 15px;
+    margin: 20px;
+    width: 250px;
+}
+
+
+
+.window {
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    display: table;
+    
+}
+
+ .item-no{
+    max-width: 20px;
+    float: left;
+    max-height: 15px;
+    margin: 20px 0 0 5px;
+ }
+
+.item-desc{
+  font-size: 12px;
+  max-width: 150px;
+  overflow-wrap: break-word;
+}
+
+.item-body{
+padding-left:15px;
+display: inline-block;
+}
+
+
+
+.searches {
+    font-size: 8px;
+    color: #ccc;
+    width: 80px;
+    float: right;
+    text-align: right;
+    height: 20px;
+    vertical-align: middle;
+    margin: 40px 0;
+    padding-right: 10px;
+    cursor: pointer
+}
+
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+#tiles-container{
+  width: 540px;
+  margin: auto;
+ 
+}
+
+.tile{
+  float: left;
+  background-color: #fff;
+  border: solid 1px #B1B1B1;
+  box-shadow: 0px 2px 5px #888;
+  padding: 15px 0 15px 15px;
+  margin: 10px;
+  width: 225px;
+}
+
+
+
+}
+
+/*===========================================================
+                For small height Phones
+==============================================================*/
+
+/* Portrait*/
+@media (min-device-height: 0) and (max-device-height: 480px){ 
+
+  
+.window {
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 300px;
+    max-height: 350px;
+    display: table;
+    
+}
+
+}
